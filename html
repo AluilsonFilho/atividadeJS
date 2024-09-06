@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados de Pessoas</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Adicionar Dados</h1>
+        <form id="formDados">
+            <label for="altura">Altura (cm):</label>
+            <input type="number" id="altura" required>
+            
+            <label for="genero">Gênero:</label>
+            <select id="genero" required>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select>
+            
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <h2>Resultados</h2>
+        <pre id="resultado"></pre>
+    </div>
+
+    <script src="atividadejava.js"></script>
+</body>
+</html>
